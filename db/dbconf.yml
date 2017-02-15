@@ -1,3 +1,3 @@
 development:
     driver: postgres
-    open: user=postgres dbname=task_list host=172.17.0.3 port=5432 sslmode=disable password=postgres
+    open: user=postgres dbname=task_list host=172.17.0.2 port=5432 sslmode=disable password=postgres
