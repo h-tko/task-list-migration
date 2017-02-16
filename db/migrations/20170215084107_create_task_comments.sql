@@ -4,7 +4,7 @@
 CREATE TABLE task_comments (
     id serial not null primary key,
     task_id integer not null,
-    memmber_id integer not null,
+    member_id integer not null,
     comment text not null,
     created_at timestamp(0) not null default now(),
     updated_at timestamp(0) not null default now(),
